@@ -1,6 +1,6 @@
 {
   "name": "prism-surfer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "main": "dist/code-surfer.js",
   "files": [
