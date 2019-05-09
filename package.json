@@ -1,26 +1,17 @@
 {
-  "name": "code-surfer",
-  "private": true,
-  "version": "0.4.0",
+  "name": "prism-surfer",
+  "private": false,
+  "version": "0.0.1",
   "license": "MIT",
-  "author": "pomber",
-  "repository": "https://github.com/pomber/code-surfer",
-  "workspaces": [
-    "{packages,fixtures}/*",
-    "website"
-  ],
+  "author": "tkshnwesper",
+  "repository": "https://github.com/tkshnwesper/prism-surfer",
   "scripts": {
-    "build": "lerna run build --ignore website",
     "build:packages": "lerna run build --no-private",
-    "build:watch": "lerna exec yarn build:watch --no-private --parallel",
-    "start": "lerna exec yarn start --scope",
-    "start:fixture": "run-p build:watch \"start {1}-fixture\" --",
+    "build:watch": "lerna exec 'npm run build:watch --no-private --parallel'",
     "format": "prettier --write '**/*.{js,jsx,css,md}'",
     "format:check": "prettier-check '**/*.{js,jsx,css,md}'",
     "test": "run-p format:check test:all",
-    "test:all": "lerna run test",
-    "build:website": "lerna exec yarn build --scope website",
-    "publish:website": "run-s build build:website"
+    "test:all": "lerna run test"
   },
   "devDependencies": {
     "lerna": "^3.2.1",
