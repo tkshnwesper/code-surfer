@@ -1,5 +1,5 @@
 {
-  "name": "mdx-deck-code-surfer",
+  "name": "mdx-deck-prism-surfer",
   "version": "0.0.1",
   "private": false,
   "main": "dist/index.js",
@@ -28,9 +28,9 @@
     "react": ">=15.0.0",
     "styled-components": ">=3.0.0"
   },
-  "author": "pomber",
+  "author": "tkshnwesper",
   "license": "MIT",
-  "repository": "https://github.com/pomber/code-surfer",
+  "repository": "https://github.com/tkshnwesper/prism-surfer",
   "description": "React component for scrolling, zooming and highlighting code.",
   "keywords": [
     "mdx",

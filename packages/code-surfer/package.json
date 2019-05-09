@@ -1,5 +1,5 @@
 {
-  "name": "code-surfer",
+  "name": "prism-surfer",
   "version": "0.0.1",
   "private": false,
   "main": "dist/code-surfer.js",
@@ -29,9 +29,9 @@
     "jest": "^24.8.0",
     "react": "^16.4.2"
   },
-  "author": "pomber",
+  "author": "tkshnwesper",
   "license": "MIT",
-  "repository": "https://github.com/pomber/code-surfer",
+  "repository": "https://github.com/tkshnwesper/code-surfer",
   "description": "React component for scrolling, zooming and highlighting code.",
   "keywords": [
     "mdx",
