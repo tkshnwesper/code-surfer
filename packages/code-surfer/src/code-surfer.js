@@ -1,7 +1,6 @@
 import React from "react";
-import Highlight, { defaultProps } from "prism-react-renderer";
-import darkTheme from "prism-react-renderer/themes/duotoneDark";
-import lightTheme from "prism-react-renderer/themes/duotoneLight";
+import Highlight from "react-syntax-highlighter";
+import { dark } from "react-syntax-highlighter/dist/esm/styles/prism";
 import * as Scroller from "./scroller";
 import { css } from "glamor";
 import SelectedTokens from "./step-parser";
@@ -28,12 +27,7 @@ const CodeSurfer = ({
   const selectedTokens = new SelectedTokens(step);
 
   return (
-    <Highlight
-      {...defaultProps}
-      code={code}
-      language={lang || "jsx"}
-      theme={theme !== undefined ? theme : dark ? darkTheme : lightTheme}
-    >
+    <Highlight code={code} language={lang || "jsx"} style={dark}>
       {({ className, style, tokens, getLineProps, getTokenProps }) => (
         <Scroller.Container
           type="pre"
