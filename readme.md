@@ -64,7 +64,7 @@ More options:
 Release new versions with:
 
 ```bash
-$ yarn build:packages
+$ npm run build:packages
 $ npx lerna publish
 ```
 
