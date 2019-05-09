@@ -11,7 +11,7 @@
     "build:watch": "npm run build --watch"
   },
   "dependencies": {
-    "code-surfer": "^0.5.5",
+    "prism-surfer": "^1.0.0",
     "memoize-one": "^5.0.4"
   },
   "devDependencies": {
