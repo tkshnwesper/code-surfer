@@ -1,6 +1,6 @@
 {
   "name": "mdx-deck-prism-surfer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "main": "dist/index.js",
   "files": [
@@ -11,8 +11,8 @@
     "build:watch": "npm run build --watch"
   },
   "dependencies": {
-    "prism-surfer": "^1.0.0",
-    "memoize-one": "^5.0.4"
+    "memoize-one": "^5.0.4",
+    "prism-surfer": "^1.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
