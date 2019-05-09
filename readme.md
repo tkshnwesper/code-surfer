@@ -1,4 +1,4 @@
-# Code Surfer <🏄/>
+# Prism Surfer <🏄/>
 
 ![](https://flat.badgen.net/npm/v/code-surfer) ![](https://flat.badgen.net/travis/pomber/code-surfer)
 
@@ -19,7 +19,7 @@ React component for scrolling, zooming and highlighting code.
 Add the dependency (and `raw-loader` if you want to load the code from a file):
 
 ```bash
-$ yarn add --dev mdx-deck-code-surfer raw-loader
+$ npm i -D mdx-deck-prism-surfer raw-loader
 ```
 
 And then use it from your `.mdx`:
