@@ -1,4 +1,4 @@
-import CodeSurfer from "code-surfer";
+import CodeSurfer from "prism-surfer";
 import React from "react";
 import { withDeck, updaters } from "mdx-deck";
 import { withTheme } from "styled-components";

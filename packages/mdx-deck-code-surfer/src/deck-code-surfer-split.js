@@ -1,4 +1,4 @@
-import CodeSurfer from "code-surfer";
+import CodeSurfer from "prism-surfer";
 import React from "react";
 import { modes, incStep, decStep } from "mdx-deck";
 import { withDeck } from "mdx-deck/dist/context";
