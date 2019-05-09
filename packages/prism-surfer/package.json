@@ -30,7 +30,7 @@
   },
   "author": "tkshnwesper",
   "license": "MIT",
-  "repository": "https://github.com/tkshnwesper/code-surfer",
+  "repository": "https://github.com/tkshnwesper/prism-surfer",
   "description": "React component for scrolling, zooming and highlighting code.",
   "keywords": [
     "mdx",

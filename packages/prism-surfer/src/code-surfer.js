@@ -1,6 +1,5 @@
 import React from "react";
 import Highlight from "react-syntax-highlighter";
-import { dark } from "react-syntax-highlighter/dist/esm/styles/prism";
 import * as Scroller from "./scroller";
 import { css } from "glamor";
 import SelectedTokens from "./step-parser";
@@ -15,15 +14,7 @@ const unselectedRules = css({
   transition: "opacity 300ms"
 });
 
-const CodeSurfer = ({
-  code,
-  step,
-  lang,
-  showNumbers,
-  dark,
-  theme,
-  monospace
-}) => {
+const CodeSurfer = ({ code, step, lang, showNumbers, dark, monospace }) => {
   const selectedTokens = new SelectedTokens(step);
 
   return (
