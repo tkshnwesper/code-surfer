@@ -1,6 +1,6 @@
 import CodeSurfer from "prism-surfer";
 import React from "react";
-import { withDeck, updaters } from "mdx-deck";
+import { withDeck, updaters } from "mdx-deck/dist/context";
 import { withTheme } from "styled-components";
 import memoizeOne from "memoize-one";
 
